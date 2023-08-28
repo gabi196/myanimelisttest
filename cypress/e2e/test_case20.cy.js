@@ -9,7 +9,7 @@ describe('Teste MAL', () => {
   })
 })
 
-describe('Teste de validação de senha durante o login', () => {
+describe('Teste de verificação da lista de Animes de um usuário.', () => {
   it('Verificar a lista de Animes de um usuário.', () => {
 
       cy.visit('https://myanimelist.net/login.php?from=%2Fregister.php')
